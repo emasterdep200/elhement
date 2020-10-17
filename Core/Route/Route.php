@@ -33,4 +33,9 @@ class Route
 		
 	}
 
+	public function managerRoute()
+	{
+		
+	}
+
 }
