@@ -32,7 +32,7 @@ class Request
 	protected $transport;
 
 		
-	function __construct(argument)
+	public function __construct()
 	{
 		# code...
 	}

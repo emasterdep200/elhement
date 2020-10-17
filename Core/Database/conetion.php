@@ -1,7 +1,5 @@
 <?php 
 
-require '../Config/database.php';
-
 try {
 	$dsn = sprintf('pgsql:host=%s;dbname=%s;user=%s;password=%s',
 		$params['host'],
