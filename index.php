@@ -7,4 +7,3 @@ define('DIR_FILES',__DIR__.'/');
 
 include __DIR__ . '/Core/Autoload/register.php';
 
-?>

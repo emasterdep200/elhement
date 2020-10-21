@@ -20,12 +20,7 @@ class FilesManager
 	public function dualInsert($insertSnipert, $search)
 	{
 		// abre el archivo a manipular
-		try{/*
-			$file = fopen($this->file, $this->permise);
-			if ($file) {
-				$content = fread($file,10000); //leer el archivo y devolver una cadena de caracteres.
-			}
-			fclose($file);*/
+		try{
 			$content = file_get_contents($this->file);
 			$var = $this->replaceString($content,$insertSnipert,$search);
 			return $this->replaceString($content,$insertSnipert,$search);
