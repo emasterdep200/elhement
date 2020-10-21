@@ -9,6 +9,7 @@ class HomeController
 	
 	public function index()
 	{
+		\Core\Helpers\render('Auth/recuperacion.php');
 		echo 'hola amigito';
 	}
 	

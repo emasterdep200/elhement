@@ -5,6 +5,8 @@
 include DIR_FILES . 'Core/Helpers/createDOM.php';
 include DIR_FILES . 'Core/Helpers/ManagerError.php';
 include DIR_FILES . 'Core/Helpers/Request.php';
+include DIR_FILES . 'Core/Helpers/FilesManager.php';
+include DIR_FILES . 'Core/Helpers/View.php';
 //rutas
 include DIR_FILES . 'Core/Route/Route.php';
 // instanciar la clase ruta para la gestion de rutas

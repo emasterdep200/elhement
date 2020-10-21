@@ -24,7 +24,9 @@
     </head>
     <body>
         <div class="app" id="app">
-            @content
+           <?php
+            include($PATH);
+            ?>
         </div>
     </body>
 </html>
